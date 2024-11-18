@@ -1,0 +1,85 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do corpo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;  /* Fundo preto */
+    color: #d4af37; /* Letras douradas */
+    margin: 0;
+}
+
+/* Containers de login e cadastro */
+.login-container, .signup-container {
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.9); /* Fundo preto com leve transparência */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Títulos */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Formulários */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Campos de entrada */
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d4af37;
+    border-radius: 5px;
+    background: none;
+    color: #fff;
+}
+
+/* Placeholder */
+input::placeholder {
+    color: #d4af37;
+}
+
+/* Botões */
+button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d4af37;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b8922e;
+}
+
+/* Links */
+.signup-option, .back-to-login {
+    margin-top: 15px;
+}
+
+.signup-option a, .back-to-login a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+.signup-option a:hover, .back-to-login a:hover {
+    text-decoration: underline;
+}

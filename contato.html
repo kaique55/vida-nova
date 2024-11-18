@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Novatrek</title>
+    <style>
+        body {
+            background: url('contato.jpg') no-repeat center center/cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        form {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        input[type="text"], input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #000;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #d4af37;
+            color: #000;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #b8922e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Entre em Contato Conosco</h1>
+        <p>Agora que você tomou a decisão de mudar seu futuro, precisamos apenas de alguns dados para entrar em contato com você!</p>
+        
+        <form action="#" method="post">
+            <input type="text" name="nome" placeholder="Como você gostaria de ser chamado?" required>
+            <input type="tel" name="contato" placeholder="Seu Contato (Telefone/WhatsApp)" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
